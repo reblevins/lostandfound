@@ -1,5 +1,9 @@
 .intro {
-  background: var(--color-theme-highlight-block);
+  // background: var(--color-theme-highlight-block);
+
+    background: url("/images/colorado-2228788_1280.jpg");
+    background-size: cover;
+    // background-position: center;
 
   &__summary {
     --flow-space: #{get-size(500)};
